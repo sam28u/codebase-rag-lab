@@ -2,8 +2,10 @@
   "name": "codebase-rag-lab",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.12.0",
-  "engines": { "node": ">=20.11" },
+  "packageManager": "pnpm@12.16.1",
+  "engines": {
+    "node": ">=20.11"
+  },
   "scripts": {
     "dev": "pnpm --filter web dev",
     "worker:dev": "pnpm --filter worker dev",
@@ -12,7 +14,7 @@
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test"
   },
-  "dependencies": {
-    "pnpm": "^12.16.1"
+  "devDependencies": {
+    "@types/node": "^22.20.5"
   }
 }
