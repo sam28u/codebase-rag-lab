@@ -11,6 +11,8 @@
   "dependencies": {
     "@repo/core": "workspace:*",
     "@repo/db": "workspace:*",
+    "bullmq": "^6.5.0",
+    "drizzle-orm": "^0.36.4",
     "ioredis": "^5.4.1",
     "next": "^15.0.0",
     "react": "^19.0.0",
